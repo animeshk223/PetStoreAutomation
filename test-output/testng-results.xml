@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-15T16:49:48 IST" name="PetSuite" finished-at="2023-04-15T16:50:07 IST" duration-ms="19249">
+  <suite started-at="2023-08-25T21:32:43 IST" name="Default suite" finished-at="2023-08-25T21:32:56 IST" duration-ms="13238">
     <groups>
     </groups>
-    <test started-at="2023-04-15T16:49:48 IST" name="PetTests" finished-at="2023-04-15T16:50:07 IST" duration-ms="19249">
-      <class name="api.test.UserTests2">
-        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTests2@2dc54ad4]" started-at="2023-04-15T16:49:49 IST" name="setupData" finished-at="2023-04-15T16:49:49 IST" duration-ms="936" status="PASS">
+    <test started-at="2023-08-25T21:32:43 IST" name="Default test" finished-at="2023-08-25T21:32:56 IST" duration-ms="13238">
+      <class name="api.test.StoreTests">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.StoreTests@1151e434]" started-at="2023-08-25T21:32:43 IST" name="setupData" finished-at="2023-08-25T21:32:44 IST" duration-ms="766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupData -->
-        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests2@2dc54ad4]" started-at="2023-04-15T16:49:49 IST" name="testPostUser" finished-at="2023-04-15T16:49:54 IST" duration-ms="4580" status="PASS">
+        <test-method signature="testPlaceOrderStore()[pri:1, instance:api.test.StoreTests@1151e434]" started-at="2023-08-25T21:32:44 IST" name="testPlaceOrderStore" finished-at="2023-08-25T21:32:49 IST" duration-ms="5381" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostUser -->
-        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTests2@2dc54ad4]" started-at="2023-04-15T16:49:54 IST" name="testGetUserByName" finished-at="2023-04-15T16:49:56 IST" duration-ms="2236" status="PASS">
+        </test-method> <!-- testPlaceOrderStore -->
+        <test-method signature="testGetOrderStore()[pri:2, instance:api.test.StoreTests@1151e434]" started-at="2023-08-25T21:32:49 IST" name="testGetOrderStore" finished-at="2023-08-25T21:32:51 IST" duration-ms="2206" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetUserByName -->
-        <test-method signature="testUpdateUserByName()[pri:3, instance:api.test.UserTests2@2dc54ad4]" started-at="2023-04-15T16:49:56 IST" name="testUpdateUserByName" finished-at="2023-04-15T16:50:05 IST" duration-ms="9084" status="PASS">
+        </test-method> <!-- testGetOrderStore -->
+        <test-method signature="testDeleteOrderStore()[pri:3, instance:api.test.StoreTests@1151e434]" started-at="2023-08-25T21:32:51 IST" name="testDeleteOrderStore" finished-at="2023-08-25T21:32:54 IST" duration-ms="2338" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUpdateUserByName -->
-        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTests2@2dc54ad4]" started-at="2023-04-15T16:50:05 IST" name="testDeleteUserByName" finished-at="2023-04-15T16:50:07 IST" duration-ms="1940" status="PASS">
+        </test-method> <!-- testDeleteOrderStore -->
+        <test-method signature="testInventoryDetailStore()[pri:4, instance:api.test.StoreTests@1151e434]" started-at="2023-08-25T21:32:54 IST" name="testInventoryDetailStore" finished-at="2023-08-25T21:32:56 IST" duration-ms="2470" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteUserByName -->
-      </class> <!-- api.test.UserTests2 -->
-    </test> <!-- PetTests -->
-  </suite> <!-- PetSuite -->
+        </test-method> <!-- testInventoryDetailStore -->
+      </class> <!-- api.test.StoreTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

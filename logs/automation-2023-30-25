@@ -1,0 +1,7 @@
+2023-08-25 21:30:57 INFO ******************* START testPlaceOrderStore() METHOD **********************
+2023-08-25 21:31:02 INFO *************** END testPlaceOrderStore() METHOD *******************************
+2023-08-25 21:31:02 INFO ******************* START testGetOrderStore() METHOD *******************************
+2023-08-25 21:31:03 INFO ******************* END testGetOrderStore() METHOD *******************************
+2023-08-25 21:31:03 INFO ******************* START testDeleteOrderStore() METHOD *******************************
+2023-08-25 21:31:05 INFO ******************* END testDeleteOrderStore() METHOD *******************************
+2023-08-25 21:31:05 INFO ******************* START testInventoryDetailStore() METHOD *******************************
